@@ -50,12 +50,12 @@ async def gban_user(client: Client, message: Message):
     if not user_id:
         return await Kazu.edit("Saya tidak dapat menemukan pengguna itu.")
     if user_id == client.me.id:
-        return await Kazu.edit("**Ngapain NgeGban Diri Sendiri Pepek**")
+        return await Kazu.edit("**Ngapain NgeGban Diri Sendiri Kocak**")
     if user_id in DEVS:
-        return await Kazu.edit("**Gak Bisa Di Gban Kontol karena dia Yang Buat Aku 🗿**")
+        return await Kazu.edit("**Gak Bisa Di Gban Kocak karena dia Yang Buat Gua 🗿**")
     if user_id in WHITELIST:
         return await Kazu.edit(
-            "**Kau Gak Bisa Kontol Gban Dia Karena Dia Adalah admin @Karc0de 😡**"
+            "**Kau Gak Bisa Kocak Gban Dia Karena Dia Adalah admin 😡**"
         )
     if user_id:
         try:
@@ -169,12 +169,12 @@ async def gmute_user(client: Client, message: Message):
         await Kazu.edit(f"`Please specify a valid user!`")
         return
     if user.id == client.me.id:
-        return await Kazu.edit("**Ngapain NgeGmute Diri Sendiri Pepek**")
+        return await Kazu.edit("**Ngapain NgeGmute Diri Sendiri Kocak**")
     if user.id in DEVS:
-        return await Kazu.edit("**Gak Bisa Di Gmute Kontol karena dia Yang Buat Aku 🗿**")
+        return await Kazu.edit("**Gak Bisa Di Gmute Kocak karena dia Yang Buat Gua 🗿**")
     if user.id in WHITELIST:
         return await Kazu.edit(
-            "**Kau Gak Bisa Kontol Gmute Dia Karena Dia Adalah admin @Karc0de 😡**"
+            "**Kau Gak Bisa Kocak Gmute Dia Karena Dia Adalah admin 😡**"
         )
     try:
         replied_user = reply.from_user
