@@ -78,10 +78,10 @@ async def pingme(client: Client, message: Message):
     end = datetime.now()
     duration = (end - start).microseconds / 1000
     await message.reply_text(
-        f"❏ **Pʏʀᴏᴢᴜ-Usᴇʀʙᴏᴛ ✨**\n"
-        f"├• **Pɪɴɢᴇʀ** - `%sms`\n"
-        f"├• **Uᴘᴛɪᴍᴇ -** `{uptime}` \n"
-        f"└• **Oᴡɴᴇʀ :** {client.me.mention}" % (duration)
+        f"❏ **𝙻𝙸𝙻𝚈-𝚄𝚂𝙴𝚁𝙱𝙾𝚃 ✨**\n"
+        f"├• **𝙿𝙸𝙽𝙶𝙴𝚁** - `%sms`\n"
+        f"├• **𝚄𝙿𝚃𝙸𝙼𝙴 -** `{uptime}` \n"
+        f"└• **𝙾𝚆𝙽𝙴𝚁 :** {client.me.mention}" % (duration)
     )
 
 
@@ -97,14 +97,14 @@ async def kping(client: Client, message: Message):
     await xx.edit("⚡⚡")
     await xx.edit("⚡⚡⚡")
     await xx.edit("⚡⚡⚡⚡✨")
-    await xx.edit("Awas awas awas babunya Kazu mau lewat😎")
+    await xx.edit("𝙻𝙸𝙻𝚈 𝙽𝙸 𝙱𝙾𝚂 𝚂𝙴𝙽𝙶𝙶𝙾𝙻 𝙳𝙾𝙽𝙶 😎")
     end = datetime.now()
     duration = (end - start).microseconds / 1000
     await xx.edit(
-        f"❏ **PONG!!🏓**\n"
-        f"├• **Pinger** - `%sms`\n"
-        f"├• **Uptime -** `{uptime}` \n"
-        f"└• **Owner :** {client.me.mention}" % (duration)
+        f"❏ **𝙿𝙾𝙽𝙶!!🏓**\n"
+        f"├• **𝙿𝙸𝙽𝙶𝙴𝚁** - `%sms`\n"
+        f"├• **𝚄𝙿𝚃𝙸𝙼𝙴 -** `{uptime}` \n"
+        f"└• **𝙾𝚆𝙽𝙴𝚁 :** {client.me.mention}" % (duration)
     )
 
 
