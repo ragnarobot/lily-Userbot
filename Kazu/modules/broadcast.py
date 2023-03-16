@@ -43,9 +43,9 @@ del _GCAST_BLACKLIST
 @Client.on_message(filters.command("gcast", cmd) & filters.me)
 async def gcast_cmd(client: Client, message: Message):
     if message.reply_to_message or get_arg(message):
-        Kazu = await edit_or_reply(message, "`𝚂𝙰𝙱𝙰𝚁 𝚈𝙰 𝚂𝙰𝚈𝙰𝙽𝙶 𝙸𝙽𝙸 𝚄𝙳𝙰𝙷 𝙼𝙰𝚄 𝙳𝙸 𝙺𝙸𝚁𝙸𝙼...`")
+        Kazu = await edit_or_reply(message, "`𝚂𝙰𝙱𝙰𝚁 𝚈𝙰 𝚂𝙰𝚈𝙰𝙽𝙶 𝙸𝙽𝙸 𝙻𝙰𝙶𝙸 𝙳𝙸𝙺𝙸𝚁𝙸𝙼 ^_^ ...`")
     else:
-        return await message.edit_text("**Pesannya Mana Sayang**")
+        return await message.edit_text("𝙿𝙴𝚂𝙰𝙽 𝙼𝙰𝙽𝙰 𝚈𝙰𝙽𝙶 𝙼𝙰𝚄 𝙳𝙸𝙺𝙸𝚁𝙸𝙼 𝚂𝙰𝚈𝙰𝙽𝙶 -_-")
     done = 0
     error = 0
     async for dialog in client.get_dialogs():
@@ -75,8 +75,8 @@ async def gcast_cmd(client: Client, message: Message):
 @Client.on_message(filters.command("gucast", cmd) & filters.me)
 async def gucast_cmd(client: Client, message: Message):
     if message.reply_to_message or get_arg(message):
-        Kazu = await edit_or_reply(message, "`𝚂𝙰𝙱𝙰𝚁 𝚈𝙰 𝚂𝙰𝚈𝙰𝙽𝙶 𝙸𝙽𝙸 𝚄𝙳𝙰𝙷 𝙼𝙰𝚄 𝙳𝙸 𝙺𝙸𝚁𝙸𝙼...`")
-        return await message.edit_text("**Pesannya Mana Sayang**")
+        Kazu = await edit_or_reply(message, "`𝚂𝙰𝙱𝙰𝚁 𝚈𝙰 𝚂𝙰𝚈𝙰𝙽𝙶 𝙸𝙽𝙸 𝙻𝙰𝙶𝙸 𝙳𝙸𝙺𝙸𝚁𝙸𝙼...`")
+        return await message.edit_text("𝙿𝙴𝚂𝙰𝙽 𝙼𝙰𝙽𝙰 𝚈𝙰𝙽𝙶 𝙼𝙰𝚄 𝙳𝙸𝙺𝙸𝚁𝙸𝙼 𝚂𝙰𝚈𝙰𝙽𝙶 -_-")
     done = 0
     error = 0
     async for dialog in client.get_dialogs():
